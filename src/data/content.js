@@ -156,7 +156,7 @@ export const content = {
         {
           id: 'drone-network',
           title: 'Drone-Based Sensor Network Architecture',
-          subtitle: 'CS408',
+          subtitle: 'CS408 Computer Networks',
           meta: 'Distributed systems · Networking',
           description:
             'Designed a distributed sensor-to-drone-to-server architecture using TCP communication, structured data formats, edge processing concepts, drone battery tracking, and return-to-base behavior.',
@@ -364,7 +364,7 @@ export const content = {
         {
           id: 'drone-network',
           title: 'Drone Tabanlı Sensör Ağı Mimarisi',
-          subtitle: 'CS408',
+          subtitle: 'CS408 Computer Networks',
           meta: 'Dağıtık sistemler · Ağ mimarisi',
           description:
             'TCP iletişimi, yapılandırılmış veri formatları, edge processing kavramları, drone batarya takibi ve üsse geri dönüş davranışı kullanan dağıtık bir sensör-drone-sunucu mimarisi tasarlandı.',
@@ -415,7 +415,7 @@ export const content = {
     footer: {
       tagline: 'Doruk Yeşil tarafından tasarlandı & geliştirildi.',
       backToTop: 'Başa dön',
-    },
+      },
   },
 }
 
