@@ -69,3 +69,7 @@ Build and lint completed during the 8 November 2026 Pages migration; lint report
 ## Resuming work
 
 Read the content file, contexts and section components before changing the layout. Keep CV/project claims consistent with actual experience. For visual changes, test mobile and desktop, both themes and available languages. Record hosting changes and design decisions here; previous conversation history is not automatically part of this repository.
+
+### Mini-bank provenance correction
+
+The user clarified that StajProj was a voluntary personal practice exercise during a later job, not part of the NovaFinz internship. Display it separately as Bonus Work / Personal Practice. Do not combine it with the Grid Comparison, Quasar and Blockly internship card or describe it as an employer-assigned deliverable. The user discussed possible deletion but did not authorize deleting the repository.

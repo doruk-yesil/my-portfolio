@@ -389,9 +389,9 @@ export const content = {
         {
           "id": "mini-bank",
           "title": "Mini Banking Application",
-          "subtitle": "StajProj",
-          "meta": "Full-stack development prototype",
-          "description": "Banking demo combining a Java 21/Spring Boot API with a Vue 3/TypeScript interface. Implements customer/admin roles, JWT authentication, account transactions, IBAN transfers, idempotent transaction handling and soft-delete account closure with PostgreSQL and Redis.",
+          "subtitle": "Bonus Work · Personal Practice",
+          "meta": "Self-directed exercise outside the internship",
+          "description": "A self-directed banking demo built for practice during a later job, outside the internship. Combines a Java 21/Spring Boot API with Vue 3/TypeScript, PostgreSQL and Redis; explores role-based access, JWT authentication, account transactions and IBAN transfers.",
           "tags": [
             "Spring Boot",
             "Vue 3",
@@ -819,9 +819,9 @@ export const content = {
         {
           "id": "mini-bank",
           "title": "Mini Bankacılık Uygulaması",
-          "subtitle": "StajProj",
-          "meta": "Full-stack geliştirme prototipi",
-          "description": "Java 21 ve Spring Boot API’si ile Vue 3/TypeScript arayüzü kullanan bankacılık demosu. Müşteri/yönetici rolleri, JWT kimlik doğrulama, hesap hareketleri, IBAN transferleri, idempotent işlem kontrolü ve soft-delete hesap kapatma akışlarını PostgreSQL ve Redis ile uygular.",
+          "subtitle": "Bonus Work · Kişisel Çalışma",
+          "meta": "Staj kapsamı dışında, kişisel pratik",
+          "description": "Stajdan sonraki iş döneminde, kendi isteğimle pratik yapmak için geliştirdiğim bankacılık demosu. Java 21/Spring Boot API’sini Vue 3/TypeScript, PostgreSQL ve Redis ile birleştirir; rol bazlı erişim, JWT kimlik doğrulama, hesap hareketleri ve IBAN transferlerini ele alır.",
           "tags": [
             "Spring Boot",
             "Vue 3",
