@@ -14,7 +14,7 @@ These rules only govern portfolio publication; keep useful development documenta
 
 ### Approved academic and development additions — 8 November 2026
 
-The user subsequently authorized checking the remaining academic/development repositories and adding missing portfolio work. The selection now has 11 bilingual cards: Bibliocast, forest-fire detection (CS419), drone-network architecture (CS408), e-commerce (CS308), 2048 agent (CS415), Turkish sentiment coursework, CLARITY (CS445), How U Doin (CS310), tourism/flight data work (CS414), one combined internship-demo card linking Grid Comparison / Quasar / Blockly, and the StajProj mini-banking prototype. The exclusions above still apply.
+The user subsequently authorized checking the remaining academic/development repositories and adding missing portfolio work. The selection now has 10 bilingual cards: Bibliocast, forest-fire detection (CS419), drone-network architecture (CS408), e-commerce (CS308), 2048 agent (CS415), CLARITY (CS445), How U Doin (CS310), tourism/flight data work (CS414), one combined internship-demo card linking Grid Comparison / Quasar / Blockly, and the StajProj mini-banking prototype. The exclusions above still apply.
 
 Sources and limits for future edits:
 
@@ -26,7 +26,7 @@ Sources and limits for future edits:
 - The three internship demo READMEs and source files were checked. Blockly's non-JSON output display remains unfinished; the portfolio does not claim all generators work. Grid feature parity and performance ranking are not established.
 - StajProj README and source documentation describe its banking prototype; its private repo link is marked access-required. It is not labeled as a production banking service or assigned to a specific employer.
 - CS408: the old ChatGPT chat **Rapor Değerlendirmesi** (18 May 2025, chat ID `6829bb72-757c-8004-8347-d15e6815c0df`) discusses the sensor/drone/server report, TCP/socket/threading/queues, battery behavior and GUI screenshots. That is historical context, not independently recovered source code or measured hardware evidence. No repository was located. Keep the existing architecture card without a fabricated source link or new performance claims.
-- Turkish sentiment coursework has an existing portfolio description but no recovered experiment repository. Previously displayed approximate F1 scores and unrelated VGG-16 assignment details were removed from that card until original evidence is recovered.
+- User correction: the Turkish-sentiment entry and CLARITY referred to the same CS445 project. Remove the misleading Turkish-sentiment card in both languages and keep only the repository-backed CLARITY card. Do not restore a second CS445 entry or merge unrelated BERTurk/GPT-2 sentiment claims into CLARITY.
 
 These notes preserve the evidence gathered in this review, not all earlier project conversations or attachments. The original CS408 report/attachments, private local files and chat-only decisions may still need separate backup before their source projects are deleted.
 

@@ -302,20 +302,6 @@ export const content = {
           ]
         },
         {
-          "id": "turkish-nlp",
-          "title": "Turkish Sentiment Classification",
-          "subtitle": "CS445 Natural Language Processing",
-          "meta": "BERTurk · GPT-2 · mT5/BART comparison",
-          "description": "Coursework comparing BERTurk, GPT-2 and mT5/BART approaches for Turkish sentiment classification, focusing on preprocessing, model selection, hyperparameter tuning and evaluation.",
-          "tags": [
-            "Python",
-            "BERTurk",
-            "GPT-2",
-            "mT5 / BART",
-            "NLP"
-          ]
-        },
-        {
           "id": "clarity",
           "title": "CLARITY",
           "subtitle": "CS445 Natural Language Processing",
@@ -743,20 +729,6 @@ export const content = {
             {
               "href": "https://github.com/ilke-demirkir/415_Project"
             }
-          ]
-        },
-        {
-          "id": "turkish-nlp",
-          "title": "Türkçe Duygu Analizi Sınıflandırması",
-          "subtitle": "CS445 Natural Language Processing",
-          "meta": "BERTurk · GPT-2 · mT5/BART karşılaştırması",
-          "description": "Türkçe duygu sınıflandırmasında BERTurk, GPT-2 ve mT5/BART yaklaşımlarını karşılaştıran ders çalışması. Ön işleme, model seçimi, hiperparametre ayarlama ve değerlendirme üzerine odaklanıldı.",
-          "tags": [
-            "Python",
-            "BERTurk",
-            "GPT-2",
-            "mT5 / BART",
-            "NLP"
           ]
         },
         {
