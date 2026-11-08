@@ -1,5 +1,17 @@
 # Doruk Yeşil — Portfolio
 
+## Portfolio selection rules — user decision, 8 November 2026
+
+Documenting a GitHub repository does **not** authorize adding it to this website. Keep the existing selected-project list curated. Do not automatically import repositories, README summaries or private projects into `src/data/content.js`.
+
+- Do not add `future-roadmap`, `Trading-AI`, `polarity-dash` or `ContentCreatorSimulator` to the portfolio.
+- Do not add `my-portfolio` as a project card for the site itself.
+- Keep `Orbit_Dasher`, `Hamurhane` and `kesinti-radari` out of the portfolio's selected projects unless the user explicitly changes this decision.
+- `orbit-escape` is a possible **future** addition, not approved for publication now. Ask for a separate explicit decision before adding it, publishing screenshots or exposing its private repository.
+- The README improvements across repositories were for preserving development context, not a portfolio expansion. Other documented repositories likewise need an explicit selection decision before new cards are added.
+
+These rules only govern portfolio publication; keep useful development documentation in the other repositories.
+
 Personal portfolio website built with React 19 and Vite 8. Includes a futuristic animated background, responsive sections, language switching and theme controls. Content covers the hero/introduction, about, skills, experience, projects and contact links.
 
 **Live site:** https://doruk-yesil.github.io/my-portfolio/
