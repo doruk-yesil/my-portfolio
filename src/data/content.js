@@ -342,7 +342,7 @@ export const content = {
         {
           "id": "tourism-network",
           "title": "Tourism & Flight Network Data",
-          "subtitle": "CS414",
+          "subtitle": "CS414 Network Science",
           "meta": "Data preparation · Graph enrichment",
           "description": "Python data-preparation work on tourism and flight networks. Uses Pandas and NetworkX to explore enriching GraphML flight connections with API-based prices, handling missing or failed responses and saving the resulting graph.",
           "tags": [
@@ -772,7 +772,7 @@ export const content = {
         {
           "id": "tourism-network",
           "title": "Turizm ve Uçuş Ağı Verileri",
-          "subtitle": "CS414",
+          "subtitle": "CS414 Network Science",
           "meta": "Veri hazırlama · Graf zenginleştirme",
           "description": "Turizm ve uçuş ağı verileri üzerinde Python tabanlı veri hazırlama çalışması. Pandas ve NetworkX kullanılarak GraphML uçuş grafının bağlantılarına API yanıtlarından fiyat bilgisi ekleme, eksik/hatalı sonuçları işleme ve grafı kaydetme adımları araştırıldı.",
           "tags": [
