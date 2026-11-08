@@ -211,6 +211,29 @@ export const content = {
       "heading": "Selected Projects",
       "items": [
         {
+          "id": "mini-bank",
+          "title": "Mini Banking Application",
+          "subtitle": "Bonus Work · Personal Practice",
+          "meta": "Self-directed exercise outside the internship",
+          "description": "A self-directed banking demo built for practice during a later job, outside the internship. Combines a Java 21/Spring Boot API with Vue 3/TypeScript, PostgreSQL and Redis; explores role-based access, JWT authentication, account transactions and IBAN transfers.",
+          "tags": [
+            "Spring Boot",
+            "Vue 3",
+            "PostgreSQL",
+            "Redis",
+            "JWT"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/doruk-yesil/StajProj",
+              "private": true
+            }
+          ],
+          "startDate": "2026-10",
+          "endDate": "2026-10-07",
+          "period": "Oct 2026"
+        },
+        {
           "id": "bibliocast",
           "title": "Bibliocast",
           "subtitle": "ENS491 / ENS492 Graduation Project · Sabancı University",
@@ -227,79 +250,12 @@ export const content = {
           "links": [
             {
               "href": "https://github.com/Bibliocast-Frontend/Bibliocast-Frontend",
-              "private": true
+              "private": false
             }
-          ]
-        },
-        {
-          "id": "forest-fire",
-          "title": "Unsupervised Forest Fire Detection",
-          "subtitle": "CS419 Digital Image & Video Analysis",
-          "meta": "Team of 3",
-          "description": "Contributed feature engineering, segmentation implementation and experimental evaluation for unsupervised burned-area detection in Sentinel-2 imagery. Combined FIRMS event selection and cloud masking with NBR thresholding and K-Means, comparing F1 and IoU against dNBR-derived reference masks.",
-          "tags": [
-            "Python",
-            "Sentinel-2",
-            "NBR / dNBR",
-            "K-Means",
-            "F1 / IoU"
           ],
-          "links": [
-            {
-              "href": "https://github.com/Yesimtsn/ForestFireDetection_CS419"
-            }
-          ]
-        },
-        {
-          "id": "drone-network",
-          "title": "Drone-Based Sensor Network Architecture",
-          "subtitle": "CS408 Computer Networks",
-          "meta": "Distributed systems · Networking",
-          "description": "Designed a distributed sensor-to-drone-to-server architecture using TCP communication, structured data formats, edge processing concepts, drone battery tracking, and return-to-base behavior.",
-          "tags": [
-            "TCP",
-            "Distributed Systems",
-            "Edge Computing",
-            "JSON/CSV"
-          ]
-        },
-        {
-          "id": "ecommerce",
-          "title": "E-Commerce Platform",
-          "subtitle": "CS308 Software Engineering",
-          "meta": "Team project · Temporary Product Owner",
-          "description": "Team-built e-commerce application with React, Spring Boot and MongoDB: product search, cart, orders, PDF invoices and customer/product-manager/sales-manager roles. Uses Firebase Authentication; contributed to sprint planning and daily coordination as temporary Product Owner.",
-          "tags": [
-            "React",
-            "Spring Boot",
-            "MongoDB",
-            "Firebase Auth",
-            "Scrum"
-          ],
-          "links": [
-            {
-              "href": "https://github.com/idemelisy/CS308"
-            }
-          ]
-        },
-        {
-          "id": "2048-dl",
-          "title": "2048 · Policy Gradient Agent",
-          "subtitle": "CS415 Deep Learning",
-          "meta": "Game AI · Model development",
-          "description": "Team project implementing a PyTorch REINFORCE agent for 2048. Covers the game environment, board representation, a running baseline, entropy bonus and reward shaping, with training, evaluation and score plots. Includes a Pygame interface for manual play.",
-          "tags": [
-            "Python",
-            "PyTorch",
-            "REINFORCE",
-            "NumPy",
-            "Pygame"
-          ],
-          "links": [
-            {
-              "href": "https://github.com/ilke-demirkir/415_Project"
-            }
-          ]
+          "startDate": "2025-11",
+          "endDate": "2026-06-10",
+          "period": "Nov 2025 – Jun 2026"
         },
         {
           "id": "clarity",
@@ -318,45 +274,54 @@ export const content = {
             {
               "href": "https://github.com/Akseldindisyan/CS445_CLARITY_Unmasking-Political-Question-Evasions"
             }
-          ]
-        },
-        {
-          "id": "how-u-doin",
-          "title": "How U Doin",
-          "subtitle": "CS310 Mobile Application Development",
-          "meta": "Mobile messaging · Team project",
-          "description": "Mobile chat project with a React Native interface and Java/Spring Boot backend. Covers authentication, friend management, direct messages and group-chat flows. The backend uses MongoDB, Spring Security and JWT.",
-          "tags": [
-            "React Native",
-            "Java",
-            "Spring Boot",
-            "MongoDB",
-            "JWT"
           ],
-          "links": [
-            {
-              "href": "https://github.com/ilke-demirkir/CS310"
-            }
-          ]
+          "startDate": "2025-11",
+          "endDate": "2026-01-30",
+          "period": "Nov 2025 – Jan 2026"
         },
         {
-          "id": "tourism-network",
-          "title": "Tourism & Flight Network Data",
-          "subtitle": "CS414 Network Science",
-          "meta": "Data preparation · Graph enrichment",
-          "description": "Python data-preparation work on tourism and flight networks. Uses Pandas and NetworkX to explore enriching GraphML flight connections with API-based prices, handling missing or failed responses and saving the resulting graph.",
+          "id": "forest-fire",
+          "title": "Unsupervised Forest Fire Detection",
+          "subtitle": "CS419 Digital Image & Video Analysis",
+          "meta": "Team of 3",
+          "description": "Contributed feature engineering, segmentation implementation and experimental evaluation for unsupervised burned-area detection in Sentinel-2 imagery. Combined FIRMS event selection and cloud masking with NBR thresholding and K-Means, comparing F1 and IoU against dNBR-derived reference masks.",
           "tags": [
             "Python",
-            "Pandas",
-            "NetworkX",
-            "GraphML",
-            "HTTP APIs"
+            "Sentinel-2",
+            "NBR / dNBR",
+            "K-Means",
+            "F1 / IoU"
           ],
           "links": [
             {
-              "href": "https://github.com/ilke-demirkir/CS414"
+              "href": "https://github.com/Yesimtsn/ForestFireDetection_CS419"
             }
-          ]
+          ],
+          "startDate": "2025-11",
+          "endDate": "2026-01-14",
+          "period": "Nov 2025 – Jan 2026"
+        },
+        {
+          "id": "2048-dl",
+          "title": "2048 · Policy Gradient Agent",
+          "subtitle": "CS415 Deep Learning",
+          "meta": "Game AI · Model development",
+          "description": "Team project implementing a PyTorch REINFORCE agent for 2048. Covers the game environment, board representation, a running baseline, entropy bonus and reward shaping, with training, evaluation and score plots. Includes a Pygame interface for manual play.",
+          "tags": [
+            "Python",
+            "PyTorch",
+            "REINFORCE",
+            "NumPy",
+            "Pygame"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/ilke-demirkir/415_Project"
+            }
+          ],
+          "startDate": "2025-11",
+          "endDate": "2025-12-30",
+          "period": "Nov – Dec 2025"
         },
         {
           "id": "frontend-experiments",
@@ -384,27 +349,92 @@ export const content = {
               "href": "https://github.com/doruk-yesil/blockly-demo",
               "label": "Blockly Demo"
             }
-          ]
+          ],
+          "startDate": "2025-06",
+          "endDate": "2025-08-05",
+          "period": "Jun – Aug 2025"
         },
         {
-          "id": "mini-bank",
-          "title": "Mini Banking Application",
-          "subtitle": "Bonus Work · Personal Practice",
-          "meta": "Self-directed exercise outside the internship",
-          "description": "A self-directed banking demo built for practice during a later job, outside the internship. Combines a Java 21/Spring Boot API with Vue 3/TypeScript, PostgreSQL and Redis; explores role-based access, JWT authentication, account transactions and IBAN transfers.",
+          "id": "ecommerce",
+          "title": "E-Commerce Platform",
+          "subtitle": "CS308 Software Engineering",
+          "meta": "Team project · Temporary Product Owner",
+          "description": "Team-built e-commerce application with React, Spring Boot and MongoDB: product search, cart, orders, PDF invoices and customer/product-manager/sales-manager roles. Uses Firebase Authentication; contributed to sprint planning and daily coordination as temporary Product Owner.",
           "tags": [
+            "React",
             "Spring Boot",
-            "Vue 3",
-            "PostgreSQL",
-            "Redis",
+            "MongoDB",
+            "Firebase Auth",
+            "Scrum"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/idemelisy/CS308"
+            }
+          ],
+          "startDate": "2025-03",
+          "endDate": "2025-05-22",
+          "period": "Mar – May 2025"
+        },
+        {
+          "id": "drone-network",
+          "title": "Drone-Based Sensor Network Architecture",
+          "subtitle": "CS408 Computer Networks",
+          "meta": "Distributed systems · Networking",
+          "description": "Designed a distributed sensor-to-drone-to-server architecture using TCP communication, structured data formats, edge processing concepts, drone battery tracking, and return-to-base behavior.",
+          "tags": [
+            "TCP",
+            "Distributed Systems",
+            "Edge Computing",
+            "JSON/CSV"
+          ],
+          "startDate": "2025-05",
+          "endDate": "2025-05-18",
+          "period": "May 2025 · report record"
+        },
+        {
+          "id": "tourism-network",
+          "title": "Tourism & Flight Network Data",
+          "subtitle": "CS414 Network Science",
+          "meta": "Data preparation · Graph enrichment",
+          "description": "Python data-preparation work on tourism and flight networks. Uses Pandas and NetworkX to explore enriching GraphML flight connections with API-based prices, handling missing or failed responses and saving the resulting graph.",
+          "tags": [
+            "Python",
+            "Pandas",
+            "NetworkX",
+            "GraphML",
+            "HTTP APIs"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/ilke-demirkir/CS414"
+            }
+          ],
+          "startDate": "2025-03",
+          "endDate": "2025-05-08",
+          "period": "Mar – May 2025"
+        },
+        {
+          "id": "how-u-doin",
+          "title": "How U Doin",
+          "subtitle": "CS310 Mobile Application Development",
+          "meta": "Mobile messaging · Team project",
+          "description": "Mobile chat project with a React Native interface and Java/Spring Boot backend. Covers authentication, friend management, direct messages and group-chat flows. The backend uses MongoDB, Spring Security and JWT.",
+          "tags": [
+            "React Native",
+            "Java",
+            "Spring Boot",
+            "MongoDB",
             "JWT"
           ],
           "links": [
             {
-              "href": "https://github.com/doruk-yesil/StajProj",
-              "private": true
+              "href": "https://github.com/ilke-demirkir/CS310"
             }
-          ]
+          ],
+          "startDate": "2024-11",
+          "endDate": "2024-12-29",
+          "period": "Nov – Dec 2024"
         }
       ],
       "sourceLabel": "GitHub repository",
@@ -641,6 +671,29 @@ export const content = {
       "heading": "Seçilmiş Projeler",
       "items": [
         {
+          "id": "mini-bank",
+          "title": "Mini Bankacılık Uygulaması",
+          "subtitle": "Bonus Work · Kişisel Çalışma",
+          "meta": "Staj kapsamı dışında, kişisel pratik",
+          "description": "Stajdan sonraki iş döneminde, kendi isteğimle pratik yapmak için geliştirdiğim bankacılık demosu. Java 21/Spring Boot API’sini Vue 3/TypeScript, PostgreSQL ve Redis ile birleştirir; rol bazlı erişim, JWT kimlik doğrulama, hesap hareketleri ve IBAN transferlerini ele alır.",
+          "tags": [
+            "Spring Boot",
+            "Vue 3",
+            "PostgreSQL",
+            "Redis",
+            "JWT"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/doruk-yesil/StajProj",
+              "private": true
+            }
+          ],
+          "startDate": "2026-10",
+          "endDate": "2026-10-07",
+          "period": "Ekim 2026"
+        },
+        {
           "id": "bibliocast",
           "title": "Bibliocast",
           "subtitle": "ENS491 / ENS492 Bitirme Projesi · Sabancı Üniversitesi",
@@ -657,79 +710,12 @@ export const content = {
           "links": [
             {
               "href": "https://github.com/Bibliocast-Frontend/Bibliocast-Frontend",
-              "private": true
+              "private": false
             }
-          ]
-        },
-        {
-          "id": "forest-fire",
-          "title": "Gözetimsiz Orman Yangını Tespiti",
-          "subtitle": "CS419 Digital Image & Video Analysis",
-          "meta": "3 kişilik takım",
-          "description": "Sentinel-2 görüntülerinde NBR tabanlı özellik mühendisliği, segmentasyon yöntemlerinin uygulanması ve deneysel değerlendirmeye katkı. FIRMS ile olay seçimi, bulut maskeleme, eşikleme ve K-Means yöntemleri; dNBR’den türetilmiş referans maskeleri üzerinde F1 ve IoU ile karşılaştırıldı.",
-          "tags": [
-            "Python",
-            "Sentinel-2",
-            "NBR / dNBR",
-            "K-Means",
-            "F1 / IoU"
           ],
-          "links": [
-            {
-              "href": "https://github.com/Yesimtsn/ForestFireDetection_CS419"
-            }
-          ]
-        },
-        {
-          "id": "drone-network",
-          "title": "Drone Tabanlı Sensör Ağı Mimarisi",
-          "subtitle": "CS408 Computer Networks",
-          "meta": "Dağıtık sistemler · Ağ mimarisi",
-          "description": "TCP iletişimi, yapılandırılmış veri formatları, edge processing kavramları, drone batarya takibi ve üsse geri dönüş davranışı kullanan dağıtık bir sensör-drone-sunucu mimarisi tasarlandı.",
-          "tags": [
-            "TCP",
-            "Dağıtık Sistemler",
-            "Edge Computing",
-            "JSON/CSV"
-          ]
-        },
-        {
-          "id": "ecommerce",
-          "title": "E-Ticaret Platformu",
-          "subtitle": "CS308 Software Engineering",
-          "meta": "Ekip projesi · Geçici Product Owner",
-          "description": "React, Spring Boot ve MongoDB tabanlı ekip projesi: ürün arama, sepet, sipariş, PDF fatura ve müşteri/ürün yöneticisi/satış yöneticisi rolleri. Firebase Authentication ile kimlik doğrulama kullanıldı; geçici Product Owner olarak sprint planlama ve günlük toplantıların koordinasyonuna katkı sağlandı.",
-          "tags": [
-            "React",
-            "Spring Boot",
-            "MongoDB",
-            "Firebase Auth",
-            "Scrum"
-          ],
-          "links": [
-            {
-              "href": "https://github.com/idemelisy/CS308"
-            }
-          ]
-        },
-        {
-          "id": "2048-dl",
-          "title": "2048 · Policy Gradient Ajanı",
-          "subtitle": "CS415 Deep Learning",
-          "meta": "Oyun AI’ı · Model geliştirme",
-          "description": "PyTorch ile REINFORCE tabanlı 2048 ajanı geliştiren ekip projesi. Oyun ortamı, tahta temsili, hareketli baseline, entropy bonus ve ödül şekillendirme; eğitim, değerlendirme ve skor çizimleriyle birlikte ele alındı. Pygame ile manuel oyun arayüzü de bulunur.",
-          "tags": [
-            "Python",
-            "PyTorch",
-            "REINFORCE",
-            "NumPy",
-            "Pygame"
-          ],
-          "links": [
-            {
-              "href": "https://github.com/ilke-demirkir/415_Project"
-            }
-          ]
+          "startDate": "2025-11",
+          "endDate": "2026-06-10",
+          "period": "Kasım 2025 – Haziran 2026"
         },
         {
           "id": "clarity",
@@ -748,45 +734,54 @@ export const content = {
             {
               "href": "https://github.com/Akseldindisyan/CS445_CLARITY_Unmasking-Political-Question-Evasions"
             }
-          ]
-        },
-        {
-          "id": "how-u-doin",
-          "title": "How U Doin",
-          "subtitle": "CS310 Mobile Application Development",
-          "meta": "Mobil mesajlaşma · Ekip projesi",
-          "description": "React Native arayüzü ve Java/Spring Boot backend’i olan mobil sohbet projesi. Kullanıcı kimlik doğrulama, arkadaş yönetimi, doğrudan mesajlaşma ve grup sohbeti akışlarını içerir. Backend MongoDB, Spring Security ve JWT kullanır.",
-          "tags": [
-            "React Native",
-            "Java",
-            "Spring Boot",
-            "MongoDB",
-            "JWT"
           ],
-          "links": [
-            {
-              "href": "https://github.com/ilke-demirkir/CS310"
-            }
-          ]
+          "startDate": "2025-11",
+          "endDate": "2026-01-30",
+          "period": "Kasım 2025 – Ocak 2026"
         },
         {
-          "id": "tourism-network",
-          "title": "Turizm ve Uçuş Ağı Verileri",
-          "subtitle": "CS414 Network Science",
-          "meta": "Veri hazırlama · Graf zenginleştirme",
-          "description": "Turizm ve uçuş ağı verileri üzerinde Python tabanlı veri hazırlama çalışması. Pandas ve NetworkX kullanılarak GraphML uçuş grafının bağlantılarına API yanıtlarından fiyat bilgisi ekleme, eksik/hatalı sonuçları işleme ve grafı kaydetme adımları araştırıldı.",
+          "id": "forest-fire",
+          "title": "Gözetimsiz Orman Yangını Tespiti",
+          "subtitle": "CS419 Digital Image & Video Analysis",
+          "meta": "3 kişilik takım",
+          "description": "Sentinel-2 görüntülerinde NBR tabanlı özellik mühendisliği, segmentasyon yöntemlerinin uygulanması ve deneysel değerlendirmeye katkı. FIRMS ile olay seçimi, bulut maskeleme, eşikleme ve K-Means yöntemleri; dNBR’den türetilmiş referans maskeleri üzerinde F1 ve IoU ile karşılaştırıldı.",
           "tags": [
             "Python",
-            "Pandas",
-            "NetworkX",
-            "GraphML",
-            "HTTP APIs"
+            "Sentinel-2",
+            "NBR / dNBR",
+            "K-Means",
+            "F1 / IoU"
           ],
           "links": [
             {
-              "href": "https://github.com/ilke-demirkir/CS414"
+              "href": "https://github.com/Yesimtsn/ForestFireDetection_CS419"
             }
-          ]
+          ],
+          "startDate": "2025-11",
+          "endDate": "2026-01-14",
+          "period": "Kasım 2025 – Ocak 2026"
+        },
+        {
+          "id": "2048-dl",
+          "title": "2048 · Policy Gradient Ajanı",
+          "subtitle": "CS415 Deep Learning",
+          "meta": "Oyun AI’ı · Model geliştirme",
+          "description": "PyTorch ile REINFORCE tabanlı 2048 ajanı geliştiren ekip projesi. Oyun ortamı, tahta temsili, hareketli baseline, entropy bonus ve ödül şekillendirme; eğitim, değerlendirme ve skor çizimleriyle birlikte ele alındı. Pygame ile manuel oyun arayüzü de bulunur.",
+          "tags": [
+            "Python",
+            "PyTorch",
+            "REINFORCE",
+            "NumPy",
+            "Pygame"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/ilke-demirkir/415_Project"
+            }
+          ],
+          "startDate": "2025-11",
+          "endDate": "2025-12-30",
+          "period": "Kasım – Aralık 2025"
         },
         {
           "id": "frontend-experiments",
@@ -814,27 +809,92 @@ export const content = {
               "href": "https://github.com/doruk-yesil/blockly-demo",
               "label": "Blockly Demo"
             }
-          ]
+          ],
+          "startDate": "2025-06",
+          "endDate": "2025-08-05",
+          "period": "Haziran – Ağustos 2025"
         },
         {
-          "id": "mini-bank",
-          "title": "Mini Bankacılık Uygulaması",
-          "subtitle": "Bonus Work · Kişisel Çalışma",
-          "meta": "Staj kapsamı dışında, kişisel pratik",
-          "description": "Stajdan sonraki iş döneminde, kendi isteğimle pratik yapmak için geliştirdiğim bankacılık demosu. Java 21/Spring Boot API’sini Vue 3/TypeScript, PostgreSQL ve Redis ile birleştirir; rol bazlı erişim, JWT kimlik doğrulama, hesap hareketleri ve IBAN transferlerini ele alır.",
+          "id": "ecommerce",
+          "title": "E-Ticaret Platformu",
+          "subtitle": "CS308 Software Engineering",
+          "meta": "Ekip projesi · Geçici Product Owner",
+          "description": "React, Spring Boot ve MongoDB tabanlı ekip projesi: ürün arama, sepet, sipariş, PDF fatura ve müşteri/ürün yöneticisi/satış yöneticisi rolleri. Firebase Authentication ile kimlik doğrulama kullanıldı; geçici Product Owner olarak sprint planlama ve günlük toplantıların koordinasyonuna katkı sağlandı.",
           "tags": [
+            "React",
             "Spring Boot",
-            "Vue 3",
-            "PostgreSQL",
-            "Redis",
+            "MongoDB",
+            "Firebase Auth",
+            "Scrum"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/idemelisy/CS308"
+            }
+          ],
+          "startDate": "2025-03",
+          "endDate": "2025-05-22",
+          "period": "Mart – Mayıs 2025"
+        },
+        {
+          "id": "drone-network",
+          "title": "Drone Tabanlı Sensör Ağı Mimarisi",
+          "subtitle": "CS408 Computer Networks",
+          "meta": "Dağıtık sistemler · Ağ mimarisi",
+          "description": "TCP iletişimi, yapılandırılmış veri formatları, edge processing kavramları, drone batarya takibi ve üsse geri dönüş davranışı kullanan dağıtık bir sensör-drone-sunucu mimarisi tasarlandı.",
+          "tags": [
+            "TCP",
+            "Dağıtık Sistemler",
+            "Edge Computing",
+            "JSON/CSV"
+          ],
+          "startDate": "2025-05",
+          "endDate": "2025-05-18",
+          "period": "Mayıs 2025 · rapor kaydı"
+        },
+        {
+          "id": "tourism-network",
+          "title": "Turizm ve Uçuş Ağı Verileri",
+          "subtitle": "CS414 Network Science",
+          "meta": "Veri hazırlama · Graf zenginleştirme",
+          "description": "Turizm ve uçuş ağı verileri üzerinde Python tabanlı veri hazırlama çalışması. Pandas ve NetworkX kullanılarak GraphML uçuş grafının bağlantılarına API yanıtlarından fiyat bilgisi ekleme, eksik/hatalı sonuçları işleme ve grafı kaydetme adımları araştırıldı.",
+          "tags": [
+            "Python",
+            "Pandas",
+            "NetworkX",
+            "GraphML",
+            "HTTP APIs"
+          ],
+          "links": [
+            {
+              "href": "https://github.com/ilke-demirkir/CS414"
+            }
+          ],
+          "startDate": "2025-03",
+          "endDate": "2025-05-08",
+          "period": "Mart – Mayıs 2025"
+        },
+        {
+          "id": "how-u-doin",
+          "title": "How U Doin",
+          "subtitle": "CS310 Mobile Application Development",
+          "meta": "Mobil mesajlaşma · Ekip projesi",
+          "description": "React Native arayüzü ve Java/Spring Boot backend’i olan mobil sohbet projesi. Kullanıcı kimlik doğrulama, arkadaş yönetimi, doğrudan mesajlaşma ve grup sohbeti akışlarını içerir. Backend MongoDB, Spring Security ve JWT kullanır.",
+          "tags": [
+            "React Native",
+            "Java",
+            "Spring Boot",
+            "MongoDB",
             "JWT"
           ],
           "links": [
             {
-              "href": "https://github.com/doruk-yesil/StajProj",
-              "private": true
+              "href": "https://github.com/ilke-demirkir/CS310"
             }
-          ]
+          ],
+          "startDate": "2024-11",
+          "endDate": "2024-12-29",
+          "period": "Kasım – Aralık 2024"
         }
       ],
       "sourceLabel": "GitHub reposu",

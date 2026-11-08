@@ -73,3 +73,22 @@ Read the content file, contexts and section components before changing the layou
 ### Mini-bank provenance correction
 
 The user clarified that StajProj was a voluntary personal practice exercise during a later job, not part of the NovaFinz internship. Display it separately as Bonus Work / Personal Practice. Do not combine it with the Grid Comparison, Quasar and Blockly internship card or describe it as an employer-assigned deliverable. The user discussed possible deletion but did not authorize deleting the repository.
+
+### Public Bibliocast and project dates — 8 November 2026
+
+Bibliocast-Frontend/Bibliocast-Frontend was verified public and its portfolio link now uses the regular GitHub label. Its root README was replaced with the platform overview, explicit frontend scope, brief separate-backend architecture, setup variables, source map and known placeholders. The earlier private-repository note above is historical and no longer describes its visibility.
+
+All ten cards display bilingual date labels and are ordered by their last substantive development date, descending. These are Git-visible development windows, not necessarily the complete academic semester or original conception dates. README-only updates and later presentation cleanup were excluded:
+
+- Mini Banking: 6–7 October 2026.
+- Bibliocast frontend: repository begins 28 November 2025, development through 10 June 2026. The broader ENS491/492 project spans the academic year.
+- CLARITY: 17 November 2025–30 January 2026; 25 October 2026 README/comment/dead-code cleanup excluded.
+- Forest Fire: 5 November 2025–14 January 2026.
+- 2048: 21 November–30 December 2025.
+- Combined internship demos: 27 June–5 August 2025, across Grid Comparison, Quasar and Blockly; November 2026 README work excluded.
+- CS308: 6 March–22 May 2025; June README creation excluded.
+- CS408: 18 May 2025 historical report conversation; no repository. The displayed label explicitly says report record, not a verified development interval.
+- CS414: 17 March–8 May 2025.
+- CS310: 19 November–29 December 2024; July 2025 README updates excluded.
+
+Keep these source distinctions when refreshing dates. Do not change the chronology just because documentation is edited.

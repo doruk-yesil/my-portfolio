@@ -16,6 +16,7 @@ export default function ProjectCard({ project, index }) {
       <div className="project-card__glow" />
       <div className="project-card__body">
         <p className="project-card__subtitle">{project.subtitle}</p>
+        {project.period && <p className="project-card__period">{project.period}</p>}
         <h3 className="project-card__title">{project.title}</h3>
         {project.meta && <p className="project-card__meta">{project.meta}</p>}
         <p className="project-card__desc">{project.description}</p>
