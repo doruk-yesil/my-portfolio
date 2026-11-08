@@ -777,6 +777,32 @@ main {
   color: var(--text-muted);
 }
 
+.project-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  padding-top: 8px;
+}
+
+.project-card__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--accent-solid);
+  font-size: 12px;
+  text-underline-offset: 4px;
+}
+
+.project-card__links a:hover {
+  text-decoration: underline;
+}
+
+.project-card__links a:focus-visible {
+  outline: 2px solid var(--accent-solid);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 @media (max-width: 960px) {
   .projects__grid {
     grid-template-columns: repeat(2, 1fr);

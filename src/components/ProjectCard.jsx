@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion'
+import { ArrowUpRight } from 'lucide-react'
+import { useLanguage } from '../context/LanguageContext.jsx'
 
 export default function ProjectCard({ project, index }) {
+  const { t } = useLanguage()
   return (
     <motion.article
       className="project-card"
@@ -21,6 +24,16 @@ export default function ProjectCard({ project, index }) {
             <li key={tag}>{tag}</li>
           ))}
         </ul>
+        {project.links?.length > 0 && (
+          <div className="project-card__links">
+            {project.links.map((link) => (
+              <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer">
+                {link.label || (link.private ? t.projects.privateSourceLabel : t.projects.sourceLabel)}
+                <ArrowUpRight size={14} aria-hidden="true" />
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </motion.article>
   )

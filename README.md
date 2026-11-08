@@ -12,6 +12,24 @@ Documenting a GitHub repository does **not** authorize adding it to this website
 
 These rules only govern portfolio publication; keep useful development documentation in the other repositories.
 
+### Approved academic and development additions — 8 November 2026
+
+The user subsequently authorized checking the remaining academic/development repositories and adding missing portfolio work. The selection now has 11 bilingual cards: Bibliocast, forest-fire detection (CS419), drone-network architecture (CS408), e-commerce (CS308), 2048 agent (CS415), Turkish sentiment coursework, CLARITY (CS445), How U Doin (CS310), tourism/flight data work (CS414), one combined internship-demo card linking Grid Comparison / Quasar / Blockly, and the StajProj mini-banking prototype. The exclusions above still apply.
+
+Sources and limits for future edits:
+
+- Bibliocast's root README is a React template; the checked-in `summary-of-frontend.txt` provides the actual frontend inventory. The card describes that frontend and links to the private organization repo with an access-required label. Do not imply that visitors gain access or expose private source files in this portfolio.
+- CS308, CS419 and CS415 README files describe their actual projects. CS419 names Doruk's contribution as feature engineering, segmentation implementation and evaluation; its evaluation uses dNBR-derived proxy masks. CS415 is a PyTorch REINFORCE agent, not a verified score/achievement claim. Conflicting CS308 team counts were removed from the portfolio.
+- CS310 README describes React Native and Java but has placeholder setup and speculative Firebase wording. Its `build.gradle` confirms Java 17, Spring Boot, MongoDB, Spring Security and JWT. The card uses these confirmed backend technologies rather than guessing Firebase.
+- CS414 README contains no useful project description. The tree and `BaşarScraping/data.ipynb` confirm Pandas/NetworkX, GraphML and API-based price enrichment; the card describes data preparation, not a completed optimization result. Do not reproduce notebook credentials or raw authenticated requests.
+- CLARITY README says approximately 0.74 macro F1, but the notebook's corresponding 308-example output says weighted F1 0.7389 and macro F1 about 0.65. The portfolio deliberately omits a numerical headline rather than confusing these metrics. Experiments were not retrained.
+- The three internship demo READMEs and source files were checked. Blockly's non-JSON output display remains unfinished; the portfolio does not claim all generators work. Grid feature parity and performance ranking are not established.
+- StajProj README and source documentation describe its banking prototype; its private repo link is marked access-required. It is not labeled as a production banking service or assigned to a specific employer.
+- CS408: the old ChatGPT chat **Rapor Değerlendirmesi** (18 May 2025, chat ID `6829bb72-757c-8004-8347-d15e6815c0df`) discusses the sensor/drone/server report, TCP/socket/threading/queues, battery behavior and GUI screenshots. That is historical context, not independently recovered source code or measured hardware evidence. No repository was located. Keep the existing architecture card without a fabricated source link or new performance claims.
+- Turkish sentiment coursework has an existing portfolio description but no recovered experiment repository. Previously displayed approximate F1 scores and unrelated VGG-16 assignment details were removed from that card until original evidence is recovered.
+
+These notes preserve the evidence gathered in this review, not all earlier project conversations or attachments. The original CS408 report/attachments, private local files and chat-only decisions may still need separate backup before their source projects are deleted.
+
 Personal portfolio website built with React 19 and Vite 8. Includes a futuristic animated background, responsive sections, language switching and theme controls. Content covers the hero/introduction, about, skills, experience, projects and contact links.
 
 **Live site:** https://doruk-yesil.github.io/my-portfolio/
