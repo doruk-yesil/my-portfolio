@@ -211,29 +211,6 @@ export const content = {
       "heading": "Selected Projects",
       "items": [
         {
-          "id": "mini-bank",
-          "title": "Mini Banking Application",
-          "subtitle": "Bonus Work · Personal Practice",
-          "meta": "Self-directed exercise outside the internship",
-          "description": "A self-directed banking demo built for practice during a later job, outside the internship. Combines a Java 21/Spring Boot API with Vue 3/TypeScript, PostgreSQL and Redis; explores role-based access, JWT authentication, account transactions and IBAN transfers.",
-          "tags": [
-            "Spring Boot",
-            "Vue 3",
-            "PostgreSQL",
-            "Redis",
-            "JWT"
-          ],
-          "links": [
-            {
-              "href": "https://github.com/doruk-yesil/StajProj",
-              "private": true
-            }
-          ],
-          "startDate": "2026-10",
-          "endDate": "2026-10-07",
-          "period": "Oct 2026"
-        },
-        {
           "id": "bibliocast",
           "title": "Bibliocast",
           "subtitle": "ENS491 / ENS492 Graduation Project · Sabancı University",
@@ -348,6 +325,11 @@ export const content = {
             {
               "href": "https://github.com/doruk-yesil/blockly-demo",
               "label": "Blockly Demo"
+            },
+            {
+              "href": "https://github.com/doruk-yesil/StajProj",
+              "label": "Bonus Project at Work",
+              "private": true
             }
           ],
           "startDate": "2025-06",
@@ -671,29 +653,6 @@ export const content = {
       "heading": "Seçilmiş Projeler",
       "items": [
         {
-          "id": "mini-bank",
-          "title": "Mini Bankacılık Uygulaması",
-          "subtitle": "Bonus Work · Kişisel Çalışma",
-          "meta": "Staj kapsamı dışında, kişisel pratik",
-          "description": "Stajdan sonraki iş döneminde, kendi isteğimle pratik yapmak için geliştirdiğim bankacılık demosu. Java 21/Spring Boot API’sini Vue 3/TypeScript, PostgreSQL ve Redis ile birleştirir; rol bazlı erişim, JWT kimlik doğrulama, hesap hareketleri ve IBAN transferlerini ele alır.",
-          "tags": [
-            "Spring Boot",
-            "Vue 3",
-            "PostgreSQL",
-            "Redis",
-            "JWT"
-          ],
-          "links": [
-            {
-              "href": "https://github.com/doruk-yesil/StajProj",
-              "private": true
-            }
-          ],
-          "startDate": "2026-10",
-          "endDate": "2026-10-07",
-          "period": "Ekim 2026"
-        },
-        {
           "id": "bibliocast",
           "title": "Bibliocast",
           "subtitle": "ENS491 / ENS492 Bitirme Projesi · Sabancı Üniversitesi",
@@ -808,6 +767,11 @@ export const content = {
             {
               "href": "https://github.com/doruk-yesil/blockly-demo",
               "label": "Blockly Demo"
+            },
+            {
+              "href": "https://github.com/doruk-yesil/StajProj",
+              "label": "İş Yerinde Ekstra Proje",
+              "private": true
             }
           ],
           "startDate": "2025-06",

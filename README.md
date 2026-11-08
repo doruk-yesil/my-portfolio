@@ -92,3 +92,7 @@ All ten cards display bilingual date labels and are ordered by their last substa
 - CS310: 19 November–29 December 2024; July 2025 README updates excluded.
 
 Keep these source distinctions when refreshing dates. Do not change the chronology just because documentation is edited.
+
+### Final mini-bank presentation decision
+
+The user requested removing the standalone mini-bank card and its date/description. Keep only a StajProj repository link at the bottom of the existing frontend internship-demo card, labeled "Bonus Project at Work" in English and "İş Yerinde Ekstra Proje" in Turkish. This is a presentation grouping, not a claim that StajProj was made during the internship: the personal-work provenance above still applies. Do not restore the standalone card or use its October 2026 date to place it first. Nine project cards remain, with the other dates/order preserved.
